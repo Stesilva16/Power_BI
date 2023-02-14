@@ -29,7 +29,7 @@ Para importar os dados é simples:
 
 Relacionamento é a existencia de uma informação em comun entrer duas ou mais tabelas, e as relações entre essas tabelas são necessárias para calcular os resultados com precisõa e exibir as informações corretas em seus relatórios. 
 
-PROCV e PROH, no excel?
+*PROCV e PROH, no excel?*
 
 Elas atuam de forma similar "procuram" uma determinada informação de uma tabela em outra para assim "trazer" um novo campo. 
 
@@ -45,6 +45,7 @@ Para fazer um relacionamento é simples, clique nas colunas que são iguais, pri
 Dax (data analystic Expressions), é o nome da linguagem formula usada pelo Power BI. <br>
 
 Ele auxilia na extração e na ciração de informações dos seus dados através de uma coleção de funções, operadores e constantes que aparecem em uma fórmula ou expressão. <br>
+
 Possui similaridade com o VBA(visual basic for application), a linguadem utilizada pela microsoft em seus demais produtos como o excel. <br> 
 
 * Sintaxa:
@@ -54,30 +55,29 @@ Possui similaridade com o VBA(visual basic for application), a linguadem utiliza
   - primeira coluna referenciada;
   - o sinal, o que a conta ira fazer;
   - segunda coluna referenciada;
-  
  <br>
- **A linguagem Dax ultiliza operadores para criar expressões que comparam valores, executar calculos e trabalhar com cadeias de carateres.**
  
- * aritmético:
-  - + (adição),
-  - - (subtração),
-  - * (multiplicação), 
-  - / (divisão), 
-  - ^ (potência);
- * comparação:
-  - = (igual),
-  - ==  (estrito igual a),
-  - > (maior que ),
-  - < (menor que),
-  - >= (maior ou igual a),
-  - <= (menor ou igual a),
-  - <> (diferente de);
- * texo:
-  - & ( conecta ou cocatenar dois valores para produzir um valor  de texto continuo);
- * lógicos:
-  - && (cria uma condição *AND* entre duas expressões que têm um resultado booleano. Se ambas as expressões também retornarem TRUE, a combinação das expressões também serão TRUE, caso ao contrario a combinação retornará False,
-  - || (cria uma condição *OR* entre duas expressões lógicas. Se uma das expressões retornar TRUE, o resultado será TRUE, quando as duas expressões são FALSE retornará FALSE,
-  - IN ( cria uma condição *OR* lógica ente cada linha sendo comparada a uma tabela. Observação: a sintaxe do contrutor de tabelas usa chaves. Ex de cores,);
+ **A linguagem Dax ultiliza operadores para criar expressões que comparam valores, executar calculos e trabalhar com cadeias de carateres.** <br>
+* aritmético:<br>
+   - (+) adição,
+   - (-) subtração,
+   - (*) multiplicação, 
+   - (/) divisão), 
+   - (^) potência;
+* comparação:<br>
+   - (=) igual,
+   - (==) estrito igual a,
+   - (>) maior que,
+   - (<) menor que,
+   - (>=) maior ou igual a,
+   - (<=) menor ou igual a,
+   - (<>) diferente de;
+* texo:<br>
+  - ( & ) conecta ou cocatenar dois valores para produzir um valor  de texto continuo;
+* lógicos:
+  - ( && ) cria uma condição *AND* entre duas expressões que têm um resultado booleano. Se ambas as expressões também retornarem TRUE, a combinação das expressões também serão TRUE, caso ao contrario a combinação retornará False,
+  - ( || ) (cria uma condição *OR* entre duas expressões lógicas. Se uma das expressões retornar TRUE, o resultado será TRUE, quando as duas expressões são FALSE retornará FALSE,
+  - ( IN ) cria uma condição *OR* lógica ente cada linha sendo comparada a uma tabela. Observação: a sintaxe do contrutor de tabelas usa chaves. Ex de cores;
   
 Para criar uma nova coluna, iremos na parte de tabelas no Power BI, e na barra de ferramentas iremos clicar em criar uma nova coluna, e antes do *=* você escreve qual é o nome que você quer deixar na sua coluna, e logo em seguida você começa selecionar, e calcular as informações que você deseja para essa nova coluna. <br>
 
@@ -88,7 +88,7 @@ O Power BI possui uma grande variedade de visualizações que você pode escolhe
 Dashboard são graficos organizados de uma maneira que você possa contar historias. <br>
 
 Pontos relevantes:
-* è uma pagina unica, geralmente chamada de tela, que conta uma historia por meio de visualizações,
+* é uma página unica, geralmente chamada de tela, que conta uma historia por meio de visualizações,
 * por ser limitado a uma unica página, um dashboard bem projetados contém apenas os elementos mais importantes da história. 
 * os leitores podem exibir relatorios relacionados para obter detalhes;
 
@@ -98,27 +98,27 @@ São representções visuais utilizadas para exibir informações u valores num�
 
 **Como escolher o melhor gráfico**
 
-faça três perguntas:
+faça três perguntas:<br>
   - O que você pretende mostrar com o seu gráfico?
   - Quantas variaveis e categorias seu grafico irá mostrar?
-  - quem é o publico que vai ler os seus gráficos?
-
-* Graficos para comparar valores: 
+  - Quem é o publico que vai ler os seus gráficos?
+<br>
+* Graficos para comparar valores: <br>
   - caso seja preciso confrontar valores ao longo do tempo ou entre varias categorias, prefira os gráficos de Barras e Colunas;
   
-* Graficos para mostrar representatividade:
+* Graficos para mostrar representatividade:<br>
   - pizza, rosca e treemap;
   
- * G. para analisar a tendencias de dados:
+* Gráfico para analisar a tendencias de dados:<br>
   - linhas e de área, mostra como se comporta;
- * G. acompanhar ganhos e perdas:
+* Gráfico acompanhar ganhos e perdas:<br>
   - grafico cascata;
   
- * G. acompanhamento de meta:
+* Gráfico acompanhamento de meta:<br>
   - KPI ou grafico de velocimetro;
-* G. compreender a distribuição de dados:
+* Gráfico compreender a distribuição de dados:<br>
   - grafico de dispersão;
-* g. para entender a relação entre conjunto de dados:
+* Gráfico para entender a relação entre conjunto de dados:<br>
   - combinado de barras e colunas;
  
 
